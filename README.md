@@ -2,4 +2,4 @@
 
 A small website to watch american tv channels.
 
-Link: 
+Link: https://mad-mushroom.github.io/USTV/
