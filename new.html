@@ -3,23 +3,32 @@
 	<head>
 		<link rel="stylesheet" href="stylenew.css">
 		<link rel="icon" href="icon.png">
-		<script src="script.js"></script>
-	
+		<script src="scriptnew.js"></script>
+
 		<title>US TV</title>
 	</head>
 	<body>
 		<h1>US TV</h1>
 		<hr style="height:2px;color:#ffffff;background-color:#ffffff;"><br>
-		<button onclick="openFullscreen();">Open Fullscreen</button><br>
+		<button onclick="window.location.assign('https://mad-mushroom.github.io/USTV/');" id="guiButton">Original GUI</button><br>
+		<button onclick="window.location.assign('https://mad-mushroom.github.io/USTV/new.html');" id="guiButton">New GUI</button><br>
+		<hr>
+		<button onclick="openFullscreen();">Open Fullscreen (recommended)</button><br>
 		<div id="wrapper">
 			<div id="buttons">
-				<button style="height:20%;width:100%;" onclick="viewChannel('https://maxsport.one/stream51.php');">ABC</button><br><br>
-				<button style="height:20%;width:100%;" onclick="viewChannel('https://maxsport.one/stream52.php');">CBS</button><br><br>
-				<button style="height:20%;width:100%;" onclick="viewChannel('https://maxsport.one/stream44.php');">ESPN</button><br><br>
-				<button style="height:20%;width:100%;" onclick="viewChannel('https://maxsport.one/stream54.php');">FOX</button><br><br>
-				<button style="height:20%;width:100%;" onclick="viewChannel('https://maxsport.one/stream53.php');">NBC</button>
+				<h1>US TV</h1>
+				<hr style="height:2px;color:#ffffff;background-color:#ffffff;"><br>
+				<button style="height:3%;width:99%;" onclick="viewChannel('https://maxsport.one/stream51.php');">ABC</button><br><br>
+				<button style="height:3%;width:99%;" onclick="viewChannel('https://maxsport.one/stream52.php');">CBS</button><br><br>
+				<button style="height:3%;width:99%;" onclick="viewChannel('https://maxsport.one/stream44.php');">ESPN</button><br><br>
+				<button style="height:3%;width:99%;" onclick="viewChannel('https://maxsport.one/stream54.php');">FOX</button><br><br>
+				<button style="height:3%;width:99%;" onclick="viewChannel('https://maxsport.one/stream53.php');">NBC</button>
+			</div>
+			<div id="seperator">
+
 			</div>
 			<div id="channelView">
+				<h3>Please select Channel</h3>
 			</div>
 		</div>
 		<hr>
@@ -27,4 +36,4 @@
 		<a href="https://github.com/Mad-Mushroom">GitHub</a>
 		<p>Copyright © 2023 MadMushroom</p>
 	</body>
-</html> 
+</html>
